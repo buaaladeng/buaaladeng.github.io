@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.55.6" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>buaaladeng</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://buaaladeng.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://buaaladeng.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://buaaladeng.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://buaaladeng.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://buaaladeng.github.io/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="https://buaaladeng.github.io/favicon.png">
+
+  
+  <link href="https://buaaladeng.github.io/index.xml" rel="alternate" type="application/rss+xml" title="buaaladeng" />
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://buaaladeng.github.io/"><h1>buaaladeng</h1></a>
+      <p class="lead">
+       人生就是一场修行 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://buaaladeng.github.io/">Home</a> </li>
+        <li><a href="https://buaaladeng.github.io/about"> About </a></li><li><a href="https://buaaladeng.github.io/tags/others"> Others </a></li><li><a href="https://buaaladeng.github.io/tags/learning-pages"> Learning Pages </a></li><li><a href="https://buaaladeng.github.io/"> Home </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2019. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="posts">
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://buaaladeng.github.io/learningpages/awk/">Awk</a>
+  </h1>
+  <time datetime="2019-06-06T21:48:18&#43;0800" class="post-date">Thu, Jun 6, 2019</time>
+  安装rabbitmq 安装erlang jumbo install erlang
+附：安装jumbo：bash -c &ldquo;$( curl http://jumbo.baidu.com/install_jumbo.sh )&ldquo;; source ~/.bashrc
+安装rabbitmq wget http://www.rabbitmq.com/releases/rabbitmq-server/v3.1.5/rabbitmq-server-generic-unix-3.1.5.tar.gz tar -xzvf rabbitmq-server-generic-unix-3.1.5.tar.gz 启动:：./sbin/rabbitmq-server -detached
+关闭：./sbin/rabbitmqctl stop
+若单机有多个实例，则在rabbitmqctlh后加–n 指定名称
+安装插件：./sbin/rabbitmq-plugins enable mochiweb rabbitmq_management
+查看已经安装的插件：./sbin/rabbitmq-plugins list
+常用命令 用户管理
+ 新建用户：./sbin/rabbitmqctl add_user admin admin123 删除用户: ./sbin/rabbitmqctl delete_user xxx 改密码: ./sbin/rabbitmqctl change_password {username} {newpassword} 设置用户角色：./sbin/rabbitmqctl set_user_tags {username} {tag ...} Tag可以为 administrator,monitoring, management 查看用户：./sbin/rabbitmqctl list_users  添加虚拟机：./sbin/rabbitmqctl add_vhost adminvhost
+查看虚拟机：./sbin/rabbitmqctl list_vhosts
+分配权限：./sbin/rabbitmqctl set_permissions -p adminvhost admin &ldquo;.&rdquo; &ldquo;.&rdquo; &ldquo;.
+  
+  <div class="read-more-link">
+    <a href="https://buaaladeng.github.io/learningpages/awk/">Read More…</a>
+  </div>
+  
+</article>
+</div>
+    </main>
+
+    
+  </body>
+</html>

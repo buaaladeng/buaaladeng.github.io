@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learningpages on buaaladeng</title>
+    <link>https://buaaladeng.github.io/learningpages/</link>
+    <description>Recent content in Learningpages on buaaladeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2019</copyright>
+    <lastBuildDate>Thu, 06 Jun 2019 21:48:18 +0800</lastBuildDate>
+    
+	<atom:link href="https://buaaladeng.github.io/learningpages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Awk</title>
+      <link>https://buaaladeng.github.io/learningpages/awk/</link>
+      <pubDate>Thu, 06 Jun 2019 21:48:18 +0800</pubDate>
+      
+      <guid>https://buaaladeng.github.io/learningpages/awk/</guid>
+      <description>安装rabbitmq 安装erlang jumbo install erlang
+附：安装jumbo：bash -c &amp;ldquo;$( curl http://jumbo.baidu.com/install_jumbo.sh )&amp;ldquo;; source ~/.bashrc
+安装rabbitmq wget http://www.rabbitmq.com/releases/rabbitmq-server/v3.1.5/rabbitmq-server-generic-unix-3.1.5.tar.gz tar -xzvf rabbitmq-server-generic-unix-3.1.5.tar.gz 启动:：./sbin/rabbitmq-server -detached
+关闭：./sbin/rabbitmqctl stop
+若单机有多个实例，则在rabbitmqctlh后加–n 指定名称
+安装插件：./sbin/rabbitmq-plugins enable mochiweb rabbitmq_management
+查看已经安装的插件：./sbin/rabbitmq-plugins list
+常用命令 用户管理
+ 新建用户：./sbin/rabbitmqctl add_user admin admin123 删除用户: ./sbin/rabbitmqctl delete_user xxx 改密码: ./sbin/rabbitmqctl change_password {username} {newpassword} 设置用户角色：./sbin/rabbitmqctl set_user_tags {username} {tag ...} Tag可以为 administrator,monitoring, management 查看用户：./sbin/rabbitmqctl list_users  添加虚拟机：./sbin/rabbitmqctl add_vhost adminvhost
+查看虚拟机：./sbin/rabbitmqctl list_vhosts
+分配权限：./sbin/rabbitmqctl set_permissions -p adminvhost admin &amp;ldquo;.&amp;rdquo; &amp;ldquo;.&amp;rdquo; &amp;ldquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
